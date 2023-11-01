@@ -1,15 +1,15 @@
 ﻿using System;
 // First
-int radius=Convert.ToInt32(System.Console.ReadLine());
-float pi=3.1415f;
-decimal yuza =(decimal)pi*radius*radius;
-float length=2*pi*radius;
+decimal radius=Convert.ToInt32(System.Console.ReadLine());
+decimal pi= 3.1415926535898m;
+decimal yuza =pi*radius*radius;
+decimal length=2*pi*radius;
 System.Console.WriteLine($"S={yuza}, L={length}");
 
 // Second
 
 System.Console.WriteLine("Enter a value: ");
-int val = Convert.ToInt32(Console.ReadLine());
+float val = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine("Enter a kurs: ");
 int kurs = Convert.ToInt32(Console.ReadLine());
 System.Console.WriteLine($"Result of convertation: {val*kurs}");
